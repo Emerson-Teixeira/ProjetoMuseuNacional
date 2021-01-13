@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #f4f2ec url(../Recursos/fundo.png) repeat-x;
+    font-size: 1rem;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+    
+
+}
+
+#logo a {
+    width: 248px;
+    height: 21px;
+    background: url(../Recursos/logo.png);
+    display: block;
+    text-indent: -99999999px;
+}
+header{
+    padding: 15px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav#topo ul{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+flex-wrap: wrap;
+
+}
+
+nav#topo ul li{
+    margin:0 5px ;
+    text-transform: uppercase;
+    display: block;
+}
+
+nav#topo ul li a {
+    text-decoration: none;
+    color:#af670a;
+    padding-bottom: 3px;
+    margin: 0 3px;
+
+}
+nav#topo ul li a:hover {
+    color: #227115;
+   border-bottom:1px solid #227115;
+}
+#conteudoTotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#principal{
+    width:710px;
+}
+#conteudoTotal aside{
+    font-size: 0.8rem;
+    width: 350px;
+    ;
+}
+
+section#visita{
+    margin-top: 5px;
+    background: #cdc8b1;
+    padding: 10px;
+    text-transform: uppercase;
+    
+}
+
+ h2.titulo{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #86521a;
+    text-transform: uppercase;
+
+}
+h2.tituloP{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #86521a;
+    text-transform: uppercase;
+
+}
+
+section#visita form fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin: 0;
+}
+input#data{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #af670a ;
+    cursor:text;
+}
+
+input#qntP{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #af670a ;
+    width: 25px; 
+}
+
+input#data:focus,input#qntP:focus{
+    outline: none;
+}
+
+input#verifDisp{
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px ;
+    border: none;
+    padding: 10px 20px;
+    background-color: #86521a;
+    color: white;
+}
+
+input#verifDisp:hover{
+    cursor: pointer;
+    background-color: #ac7840;
+}
+section#galeria{
+    padding: 20px;
+    background-color: wheat;
+}
+section#galeriaFotos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+article.foto{
+    box-sizing: border-box;
+    width: 126px;
+    height: 133px;
+    background-image: url(../Recursos/fundo-foto.png);
+    display: block;
+    /*margin: 0 auto;*/
+    padding-top: 17px;
+    padding-left: 17px;
+}
+section#utilidades{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+section#Historia{
+    margin-top: 5px;
+    padding: 10px;
+    border-top: 1px solid #af670a;
+    margin-bottom: 20px;
+}
+section#Historia p{
+    font-size: 1.1rem;
+    text-align: justify;
+    text-indent: 30px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 30px 50px;
+    background: url(../Recursos/fundo-rodape.png) center top no-repeat;
+    
+}
+nav#foot ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    
+    }
+    
+    nav#foot ul li{
+        display: block;
+        margin:0 5px ;
+        text-transform: uppercase;
+    }
+    
+    nav#foot ul li a {
+        text-decoration: none;
+        color:#af670a;
+        padding-bottom: 3px;
+        margin: 0 3px;
+    
+    }
+    nav#foot ul li a:hover {
+        color: #227115;
+       border-bottom:1px solid #227115;
+    }
+    span#textFoot{
+
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+
+    span#textFoot a{
+        text-decoration: none;
+        color:#af670a;
+    }
+
+    span#textFoot a:hover{
+        text-decoration: underline;
+    }
+
+    
